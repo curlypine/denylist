@@ -17,7 +17,7 @@ body:
     attributes:
       label: Hotspot Name
       description: What is the animal name of your Hotspot?
-      placeholder: ex. tiny-bronze-caterpillar
+      placeholder: Curly Pine Lynx
     validations:
       required: true
 
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Hotspot b58 Address
       description: What is the address of your Hotspot?
-      placeholder: ex. 112ui8pK1pmkeTiNxLNqJiwjUkSobo6gf6PnB15Tw7iA4orN9B2j
+      placeholder: 114rqZmXMwLzes3NNpYsSQwcvxa9jEJWjobeBA14oKqXjVo7zz8
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Discord Handle
       description: What is your Discord handle (in case we need to reach you?)
-      placeholder: ex. hotspot-owner#9184
+      placeholder: liveitkodi
     validations:
       required: false
 
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Hotspot Manufacturer
       description: What is the manufacturer of your Hotspot?
-      placeholder: ex. Nebra, Bobcat, RAK
+      placeholder: PT
     validations:
       required: true
 
@@ -53,7 +53,7 @@ body:
     attributes:
       label: Removal Reason
       description: Why should this Hotspot be removed from the denylist?
-      placeholder: ex. I used to do things that were not for creating coverage but I stopped. Please save me.
+      placeholder: More than 2 months ago I stopped being able to generate and was placed on this list. Please help me out..
     validations:
       required: true
 
@@ -62,7 +62,7 @@ body:
     attributes:
       label: Modifications
       description: Have you modified your Hotspot in anyway? If yes, please describe in the additional information box below.
-      options:
+      options: 'No'
         - 'Yes'
         - 'No'
     validations:
@@ -73,7 +73,7 @@ body:
     attributes:
       label: Extra forwarders
       description: Are you using one or more extra forwarder(s)? If yes, please describe why in the additional information box below.
-      options:
+      options: 'No'
         - 'Yes'
         - 'No'
     validations:
@@ -84,7 +84,7 @@ body:
     attributes:
       label: Extra antennas
       description: Do you have multiple antennas attached to one Hotspot? If yes, please describe why in the additional information box below.
-      options:
+      options: 'No'
         - 'Yes'
         - 'No'
     validations:
